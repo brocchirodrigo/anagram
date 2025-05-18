@@ -1,4 +1,4 @@
-package br.com.imaginer.anagram.infrastructure.config;
+package br.com.imaginer.anagram.infrastructure.exception;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;

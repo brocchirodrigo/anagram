@@ -1,6 +1,6 @@
 package br.com.imaginer.anagram.domain.model;
 
-import br.com.imaginer.anagram.domain.model.exceptions.AnagramException;
+import br.com.imaginer.anagram.domain.exceptions.AnagramException;
 import lombok.Data;
 
 import java.util.HashSet;

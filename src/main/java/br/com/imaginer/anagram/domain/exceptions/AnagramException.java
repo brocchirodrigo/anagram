@@ -1,4 +1,4 @@
-package br.com.imaginer.anagram.domain.model.exceptions;
+package br.com.imaginer.anagram.domain.exceptions;
 
 public class AnagramException extends RuntimeException {
   public AnagramException(String message) {

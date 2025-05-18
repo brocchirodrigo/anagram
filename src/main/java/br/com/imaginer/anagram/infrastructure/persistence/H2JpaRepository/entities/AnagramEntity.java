@@ -1,4 +1,4 @@
-package br.com.imaginer.anagram.infrastructure.persistence.entities;
+package br.com.imaginer.anagram.infrastructure.persistence.H2JpaRepository.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
