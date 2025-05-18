@@ -1,6 +1,7 @@
 package br.com.imaginer.anagram.adapter.controller;
 
-import br.com.imaginer.anagram.application.usecase.ApplicationUseCase;
+
+import br.com.imaginer.anagram.adapter.gateway.ApplicationUseCase;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;
@@ -21,6 +22,7 @@ public class ProjectController {
   }
 
   @GetMapping
+  @Operation(summary = "Get project info", description = "Get project info")
   public ResponseEntity<ApplicationUseCase.InfoResponse> project() {
       return ResponseEntity.ok(applicationUseCase.execute());
   }
